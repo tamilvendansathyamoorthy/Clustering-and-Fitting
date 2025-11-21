@@ -378,7 +378,7 @@ def main():
      - clustering using first two numeric columns
      - fitting using the same two columns (x -> first, y -> second)
     """
-    df = pd.read_csv("Data.csv")
+    df = pd.read_csv("data.csv")
     df = preprocessing(df)
     numeric = df.select_dtypes(include=[np.number]).columns.tolist()
     if len(numeric) == 0:
