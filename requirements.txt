@@ -1,7 +1,4 @@
-corner
-matplotlib
 numpy
 pandas
-scikit-learn
+matplotlib
 scipy
-seaborn
